@@ -40,7 +40,7 @@ resource "aws_api_gateway_deployment" "my_api_deployment" {
   depends_on = [aws_api_gateway_integration.lambda_integration]
 
   rest_api_id = aws_api_gateway_rest_api.my_api.id
-  stage_name  = "dev" # stage name
+  stage_name  = "Terraform with Aws" # stage name
   lifecycle {
     create_before_destroy = true
   }
