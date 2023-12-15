@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "sasindu-tfstate-bkt" #change this
+    bucket = "sasindu0-tfstate-bkt" #change this
     key    = "terraform.tfstate"
     region = "us-east-1" 
   }
